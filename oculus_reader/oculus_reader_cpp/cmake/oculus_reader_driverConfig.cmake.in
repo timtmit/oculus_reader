@@ -1,0 +1,4 @@
+@PACKAGE_INIT@
+include(CMakeFindDependencyMacro)
+find_dependency(Eigen3)
+include("${CMAKE_CURRENT_LIST_DIR}/oculus_reader_driverTargets.cmake")
